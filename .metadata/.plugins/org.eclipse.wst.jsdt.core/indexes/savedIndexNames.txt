@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\Windows 10\Desktop\LTWEB\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+976684453.index
+989006300.index
+1845207493.index
+3811525301.index
+3456207291.index
+2493922689.index
+3393052295.index

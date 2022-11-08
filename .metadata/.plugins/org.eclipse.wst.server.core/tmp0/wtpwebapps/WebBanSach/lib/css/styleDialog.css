@@ -1,0 +1,120 @@
+#over{
+	display: none;
+	position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 997;
+    width: 100%;
+    height: 100%;
+}
+
+.dialog{
+	display: none;
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    z-index: 998;
+    transform: translateX(-50%);
+    font-family: inherit;
+}
+
+.dialog>.header{
+	display: block;
+    position: relative;
+    background-color: #006362;
+    border-radius: 7px 7px 0 0;
+    height: 30px !important;
+}
+
+.dialog>.header>.title{
+	display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(244, 244, 244);
+}
+
+.dialog>.header .close{
+	display: block;
+    color: red;
+    opacity: 0.8;
+    margin: 0 0.25em;
+}
+
+.dialog>.header .close i{
+	margin: 1px;
+	font-size: 25px !important;
+}
+
+.dialog .content{
+	display: block;
+    position: absolute;
+    width: 100%;
+    border: 1px solid rgb(155, 155, 155);
+    border-top: none;
+    border-radius: 0 0 7px 7px;
+    background: rgb(255, 255, 255);
+}
+
+.dialog .content .item{
+	display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0.5em;
+    overflow: hidden;
+    cursor: default;
+}
+
+.item .title{
+	flex-grow: 1;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0.5em 0;
+}
+
+.item .mini-image{
+	width: 100%;
+	max-width: 300px;
+}
+
+
+.item .detail{
+	flex-grow: 7;
+    flex-wrap: wrap;
+    margin: 0.5em 0;
+}
+
+.detail textarea{
+	resize: none;
+}
+
+.detail input
+{
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.07) inset;
+    color: black;
+    font: 12px/25px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 3em;
+    padding: 0px 8px;
+    word-spacing: 0.1em;
+    width: 90%;
+}
+
+.detail input[type="file"]{
+	padding: 0.25em;
+    height: 30px;
+}
+
+.detail textarea, .detail input{
+	width: 100% !important;
+    margin: 0.25em 0;
+	border: 1px solid rgb(127, 127, 127);
+}
+
+.item .button{
+	flex-grow: 1;
+}

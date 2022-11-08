@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+th, td{
+	border: 1px solid rgb(100, 100, 100);
+}
+
+th{
+	padding: 0.5em 0;
+	background: #aaa;
+	box-shadow: 0 0 2px 0 #E1E1E1
+}
+
+.s-small{
+	width: 10%;
+}
+
+.s-medi{
+	width: 35%;
+}
+
+.s-large{
+	width: 55%;
+}
+
+.s-parent{
+	width: 100%;
+}
+
+tr.default-style{
+    background-color: rgb(244, 244, 244);
+}
+
+tr.select-style{
+	background-color: #bce7ff;
+}
+
+.table-icon{
+	font-size: 30px !important;
+    transform: translateY(-25%);
+    margin: 0;
+}
+
+.table-icon#selected{
+	color: #777777;
+}

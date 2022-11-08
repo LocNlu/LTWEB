@@ -1,0 +1,19 @@
+import java.sql.Connection;
+import java.sql.Driver;
+import java.sql.DriverManager;
+
+public class test {
+public static void main(String[] args) {
+	Connection conn = null;
+	try {
+		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+	
+		conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=webbansach;user=sa1;password=12345");
+	}
+	catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+}
+}

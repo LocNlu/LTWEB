@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+.Info {
+	
+}
+
+.Info__Item {
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+.Info__Item__Title {
+	font-family: inherit;
+	font-weight: bold;
+	font-size: small;
+	font-style: italic;
+}
+
+.Info__Item__Content {
+	margin: 0em 1em;
+}
+
+.board__title {
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 10px 0px;
+	text-align: center;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.board__header {
+	padding-bottom: 1em;
+	border-bottom: 1px groove;
+}
+
+.board__main {
+	font-family: inherit;
+	border-bottom: 1px groove;
+}
+
+.board__main__title {
+	font-weight: bold;
+	border-bottom: 1px groove;
+	padding: 1em 0em;
+}
+
+.board__main__detail {
+	padding: 1em 0.5em;
+}
+
+.board__main__detail__lable {
+	font-weight: bold;
+	font-size: small;
+	margin-right: 1em;
+}
+
+.board__main__detail__content {
+	
+}
+
+.comment {
+	margin: 0px 10px;
+	padding: 0px 10px;
+}
+
+.comment__item {
+	
+}
+
+.comment__item__icon {
+	display: inline-block;
+	position: relative;
+	padding: 0px 7px;
+	overflow: hidden;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	border: 1px groove;
+	box-shadow: 0 0 2px 0px black;
+}
+
+.comment__item__rate {
+	display: inline-block;
+	position: relative;
+	transform: translateY(20%);
+	float: right;
+}
+
+.comment__item__time::before {
+	content: " - ";
+	margin-right: 20px;
+}
+
+.comment__item__time {
+	display: inline-block;
+	position: relative;
+	transform: translateY(-45%);
+	margin-right: 20px;
+}
+
+.comment__item__name {
+	display: inline-block;
+	position: relative;
+	font-family: initial;
+	font-size: medium;
+	font-weight: bold;
+	color: #025a01;
+	transform: translateY(-40%);
+	margin: 2px 20px;
+}
+
+.comment__item__content {
+	display: block;
+	border-radius: 10px;
+	background-color: #f3f3f3;
+	margin: 3px 0px 15px 0px;
+	padding: 10px;
+	border: 1px solid #dcdcdc;
+}
+
+.comment__new {
+	margin: 1em;
+}
+
+.comment__new input#name, .comment__new textarea#comment{
+	border: 1px solid #dcdcdc;
+	font-family: inherit;
+	box-shadow: none !important;
+}
+
+.comment__new__name {
+	display: inline-block;
+	width: 25%;
+	padding: 5px;
+}
+
+.comment__new__rate {
+	display: inline-block;
+	float: right;
+}
+
+.comment__new__content {
+	display: block;
+	position: relative;
+	margin: 1em 0em;
+	padding: 5px;
+	width: 100%;
+	resize: none;
+}
+
+.comment__new__button {
+	float: right;
+	margin: 16px 0px;
+}
